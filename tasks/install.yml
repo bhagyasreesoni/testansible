@@ -1,0 +1,8 @@
+---
+- name: Config Web Server
+  yum:
+   name: httpd
+   state: present
+
+...
+
